@@ -17,8 +17,8 @@
 @media(max-width:600px){.saved{padding-left:20px;padding-right:20px}.saved-grid{grid-template-columns:minmax(0,1fr);gap:18px}.saved-card{width:100%;max-width:440px;margin-inline:auto}.saved-actions{flex-wrap:wrap}.saved-actions button{flex:1 1 30%;min-height:44px}.back-note{width:100%;padding:20px;margin:24px auto}}
 .room-art{cursor:zoom-in}
 .poster-zoom{position:fixed;inset:0;z-index:300;background:#111e19f2;display:flex;align-items:center;justify-content:center;overflow:hidden;touch-action:none}
-.poster-zoom[hidden]{display:none}.poster-zoom-stage{position:relative;width:min(90vw,650px);height:min(80vh,900px);touch-action:none;transform-origin:center;will-change:transform}
-.poster-zoom-stage>img{display:block;width:100%;height:100%;object-fit:contain}.poster-zoom-stage .poster-lockup{position:absolute;z-index:2;pointer-events:none}
+.poster-zoom[hidden]{display:none}.poster-zoom-stage{position:relative;width:min(90vw,60vh,650px);aspect-ratio:3/4;height:auto;touch-action:none;transform-origin:center;will-change:transform}
+.poster-zoom-stage>img{display:block;width:100%;height:100%;object-fit:cover}.poster-zoom-stage .poster-lockup{position:absolute;z-index:2;pointer-events:none}
 .poster-zoom-close{position:absolute;right:16px;top:16px;z-index:3;background:#fffdf8;color:#19231d;border:0;border-radius:50%;width:44px;height:44px;font-size:26px;cursor:pointer}
 .poster-zoom-hint{position:absolute;left:0;right:0;bottom:14px;text-align:center;color:#fff;font:14px sans-serif;pointer-events:none}
 </style></head><body><a class="skip-link" href="#main-content">Skip to main content</a><noscript><p class="noscript">JavaScript is required to generate and save poster ideas. The example gallery and project information remain available.</p></noscript>
